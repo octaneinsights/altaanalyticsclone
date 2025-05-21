@@ -1,0 +1,4 @@
+locations:
+- code_source:
+    module_name: quickstart_snowflake.definitions
+  location_name: altapestanalytics
