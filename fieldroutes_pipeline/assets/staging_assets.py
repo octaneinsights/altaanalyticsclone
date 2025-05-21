@@ -1,4 +1,4 @@
-from dagster import asset, AssetExecutionContext, Output, AssetIn
+from dagster import asset, AssetExecutionContext, Output, AssetIn, AssetKey
 import pandas as pd
 
 @asset(

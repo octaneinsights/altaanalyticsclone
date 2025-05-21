@@ -1,3 +1,4 @@
 # Ignore temporary and run history folders
 
 tmp0bavegn1/
+__pycache__/

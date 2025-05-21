@@ -8,6 +8,10 @@ from .assets.facts import (
     appointment_fact, subscription_fact, payment_fact,
     # Import other fact assets
 )
+from .assets.staging_assets import (
+    staging_customer_dim,
+    # Import other staging assets
+)
 
 from .assets.config import FieldRoutesConfig
 from .resources.fieldroutes_client import FieldRoutesClient
@@ -57,7 +61,8 @@ defs = Definitions(
         # All assets
         customer_dim, employee_dim, office_dim,
         appointment_fact, subscription_fact, payment_fact,
-        # Add all other assets here
+        staging_customer_dim,
+            # Add all other assets here
     ],
     resources={
         "field_routes_client": FieldRoutesClient(),
