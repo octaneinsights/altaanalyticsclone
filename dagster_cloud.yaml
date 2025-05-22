@@ -1,4 +1,4 @@
 locations:
-- code_source:
-    module_name: fieldroutes_pipeline.definitions
-  location_name: altapestanalytics
+  - code_source:
+      module_name: fieldroutes_pipeline.definitions
+    location_name: fieldroutes_pipeline
